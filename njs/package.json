@@ -1,0 +1,18 @@
+{
+  "name": "njs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fx": "^14.0.1",
+    "speed-test": "^2.1.0",
+    "tern": "^0.23.0",
+    "vtop": "^0.6.1",
+    "yo": "^2.0.6"
+  }
+}

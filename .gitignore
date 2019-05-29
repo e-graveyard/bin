@@ -1,0 +1,12 @@
+# node
+njs/node_modules/*
+
+# symlinks
+fx
+speed-test
+tern
+vtop
+yo
+
+# ctags
+tags
