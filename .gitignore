@@ -7,6 +7,9 @@ speed-test
 tern
 vtop
 yo
+ngrok
+tsc
+ts-node
 
 # ctags
 tags
