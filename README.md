@@ -23,6 +23,9 @@
       tern       > js autocompletion tool
       vtop       > top w/ pretty graphs
       speed-test > network speed testing
+      tsc        > typescript compiler
+      ts-node    > typescript repl
+      ngrok      > tunneling to localhost
    gqr           > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
