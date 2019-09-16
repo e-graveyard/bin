@@ -11,6 +11,7 @@
   "dependencies": {
     "fx": "^14.0.1",
     "generator-botbuilder": "^4.4.0",
+    "neovim": "^4.5.0",
     "ngrok": "^3.2.5",
     "speed-test": "^2.1.0",
     "tern": "^0.23.0",
