@@ -10,6 +10,8 @@ yo
 ngrok
 tsc
 ts-node
+neovim-node-host
+tsserver
 
 # ctags
 tags
