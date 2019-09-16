@@ -17,16 +17,19 @@
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-   njs/          > nodejs cli programs
-      fx         > json visulization
-      yo         > scaffolding tool
-      tern       > js autocompletion tool
-      vtop       > top w/ pretty graphs
-      speed-test > network speed testing
-      tsc        > typescript compiler
-      ts-node    > typescript repl
-      ngrok      > tunneling to localhost
-   gqr           > text-to-qr-code script
+   njs/                > nodejs cli programs
+      fx               > json visulization
+      yo               > scaffolding tool
+      tern             > js autocompletion tool
+      vtop             > top w/ pretty graphs
+      speed-test       > network speed testing
+      tsc              > typescript compiler
+      ts-node          > typescript repl
+      ngrok            > tunneling to localhost
+      tsserver         > typescript standalone server
+      neovim-node-host > neovim host for nodejs
+      ngrok            > tunneling to localhost
+   gqr                 > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
         ___
