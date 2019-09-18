@@ -12,6 +12,7 @@ tsc
 ts-node
 neovim-node-host
 tsserver
+firebase
 
 # ctags
 tags
