@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular/cli": "^8.3.6",
     "firebase-tools": "^7.3.2",
     "fx": "^14.0.1",
     "generator-botbuilder": "^4.4.0",
