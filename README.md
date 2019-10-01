@@ -29,6 +29,7 @@
       tsserver         > typescript standalone server
       neovim-node-host > neovim host for nodejs
       ngrok            > tunneling to localhost
+      ng               > angular cli
    gqr                 > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

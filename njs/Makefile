@@ -15,6 +15,7 @@ install:
 	@[ -L "../ngrok" ]            || ln -s $(DIR)/node_modules/.bin/ngrok ../
 	@[ -L "../neovim-node-host" ] || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
 	@[ -L "../firebase" ]         || ln -s $(DIR)/node_modules/.bin/firebase ../
+	@[ -L "../ng" ]               || ln -s $(DIR)/node_modules/.bin/ng ../
 
 clean:
 	@[ -L "../fx" ]               && unlink ../fx               || true
@@ -28,3 +29,4 @@ clean:
 	@[ -L "../ngrok" ]            && unlink ../ngrok            || true
 	@[ -L "../neovim-node-host" ] && unlink ../neovim-node-host || true
 	@[ -L "../firebase" ]         && unlink ../firebase         || true
+	@[ -L "../ng" ]               && unlink ../ng               || true
