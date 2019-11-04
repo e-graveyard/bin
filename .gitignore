@@ -14,6 +14,7 @@ neovim-node-host
 tsserver
 firebase
 ng
+nodemon
 
 # ctags
 tags
