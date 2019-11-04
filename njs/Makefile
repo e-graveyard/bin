@@ -16,6 +16,7 @@ install:
 	@[ -L "../neovim-node-host" ] || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
 	@[ -L "../firebase" ]         || ln -s $(DIR)/node_modules/.bin/firebase ../
 	@[ -L "../ng" ]               || ln -s $(DIR)/node_modules/.bin/ng ../
+	@[ -L "../nodemon" ]          || ln -s $(DIR)/node_modules/.bin/nodemon ../
 
 clean:
 	@[ -L "../fx" ]               && unlink ../fx               || true
@@ -30,3 +31,4 @@ clean:
 	@[ -L "../neovim-node-host" ] && unlink ../neovim-node-host || true
 	@[ -L "../firebase" ]         && unlink ../firebase         || true
 	@[ -L "../ng" ]               && unlink ../ng               || true
+	@[ -L "../nodemon" ]          && unlink ../nodemon          || true
