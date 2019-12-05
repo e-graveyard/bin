@@ -19,7 +19,6 @@
 
    njs/                > nodejs cli programs
       fx               > json visulization
-      yo               > scaffolding tool
       tern             > js autocompletion tool
       vtop             > top w/ pretty graphs
       speed-test       > network speed testing
@@ -29,7 +28,6 @@
       tsserver         > typescript standalone server
       neovim-node-host > neovim host for nodejs
       ngrok            > tunneling to localhost
-      ng               > angular cli
    gqr                 > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
