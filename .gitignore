@@ -11,6 +11,7 @@ tsc
 ts-node
 neovim-node-host
 tsserver
+nodemon
 
 # binaries
 Telegram

@@ -13,6 +13,7 @@ install:
 	@[ -L "../ts-node" ]          || ln -s $(DIR)/node_modules/.bin/ts-node ../
 	@[ -L "../ngrok" ]            || ln -s $(DIR)/node_modules/.bin/ngrok ../
 	@[ -L "../neovim-node-host" ] || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
+	@[ -L "../nodemon" ]          || ln -s $(DIR)/node_modules/.bin/nodemon ../
 
 clean:
 	@[ -L "../fx" ]               && unlink ../fx               || true
@@ -24,3 +25,4 @@ clean:
 	@[ -L "../ts-node" ]          && unlink ../ts-node          || true
 	@[ -L "../ngrok" ]            && unlink ../ngrok            || true
 	@[ -L "../neovim-node-host" ] && unlink ../neovim-node-host || true
+	@[ -L "../nodemon" ]          && unlink ../nodemon          || true
