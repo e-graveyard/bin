@@ -2,11 +2,11 @@
 
 ## ubuntu
 ```sh
-bash -c "$(curl -fsSL https://git.io/fjTwe)"
+bash -c "$(curl -fsSL https://git.io/JYcgO)"
 ```
 
 
 ## debian
 ```sh
-bash -c "$(curl -fsSL https://git.io/fjTVh)"
+bash -c "$(curl -fsSL https://git.io/JYcgt)"
 ```

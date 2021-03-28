@@ -19,15 +19,18 @@
 
    njs/                > nodejs cli programs
       fx               > json visulization
-      tern             > js autocompletion tool
-      vtop             > top w/ pretty graphs
-      speed-test       > network speed testing
-      tsc              > typescript compiler
-      ts-node          > typescript repl
-      ngrok            > tunneling to localhost
-      tsserver         > typescript standalone server
       neovim-node-host > neovim host for nodejs
       ngrok            > tunneling to localhost
+      nodemon          > nodejs program autoreload
+      speed-test       > network speed testing
+      tern             > js autocompletion tool
+      ts-node          > typescript repl
+      tsc              > typescript compiler
+      tsserver         > typescript standalone server
+      vtop             > top w/ pretty graphs
+   remote/             > scripts for remote machines
+      debian/          > scripts for debian systems
+      ubuntu/          > scripts for ubuntu systems
    gqr                 > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
