@@ -11,7 +11,7 @@
   "dependencies": {
     "fx": "^20.0.2",
     "neovim": "^4.9.0",
-    "ngrok": "^3.4.0",
+    "ngrok": "^4.0.0",
     "nodemon": "^2.0.7",
     "speed-test": "^2.1.0",
     "tern": "^0.24.3",
