@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "asciicast2gif": "^0.2.1",
     "fx": "^20.0.2",
     "neovim": "^4.10.0",
     "ngrok": "^4.0.1",
