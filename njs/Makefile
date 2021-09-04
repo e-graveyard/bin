@@ -6,7 +6,6 @@ install:
 	@npm i
 	@[ -L "../asciicast2gif" ]    || ln -s $(DIR)/node_modules/.bin/asciicast2gif ../
 	@[ -L "../fx" ]               || ln -s $(DIR)/node_modules/.bin/fx ../
-	@[ -L "../tern" ]             || ln -s $(DIR)/node_modules/.bin/tern ../
 	@[ -L "../vtop" ]             || ln -s $(DIR)/node_modules/.bin/vtop ../
 	@[ -L "../tsc" ]              || ln -s $(DIR)/node_modules/.bin/tsc ../
 	@[ -L "../tsserver" ]         || ln -s $(DIR)/node_modules/.bin/tsserver ../
@@ -18,7 +17,6 @@ install:
 clean:
 	@[ -L "../asciicast2gif" ]    && unlink ../asciicast2gif    || true
 	@[ -L "../fx" ]               && unlink ../fx               || true
-	@[ -L "../tern" ]             && unlink ../tern             || true
 	@[ -L "../vtop" ]             && unlink ../vtop             || true
 	@[ -L "../tsc" ]              && unlink ../tsc              || true
 	@[ -L "../tsserver" ]         && unlink ../tsserver         || true
