@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bump": "ncu --upgrade --dep prod"
   },
   "author": "",
   "license": "ISC",
@@ -12,11 +12,11 @@
     "asciicast2gif": "^0.2.1",
     "fx": "^20.0.2",
     "neovim": "^4.10.0",
-    "ngrok": "^4.0.1",
-    "nodemon": "^2.0.7",
-    "tern": "^0.24.3",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
+    "ngrok": "^4.1.0",
+    "nodemon": "^2.0.12",
+    "npm-check-updates": "^11.8.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2",
     "vtop": "^0.6.1"
   }
 }
