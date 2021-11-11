@@ -11,26 +11,25 @@
 
  A collection of scripts, utilities, hacks, [...]
 
-    author : Caian R. Ertl <hi@caian.org>
+    author : Caian Ertl <hi@caian.org>
       code : github.com/caian-org/bin
    license : CC0 (Public Domain)
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
    njs/                > nodejs cli programs
+      asciicast2gif    > convert asciicast records to gif
       fx               > json visulization
       neovim-node-host > neovim host for nodejs
-      ngrok            > tunneling to localhost
-      nodemon          > nodejs program autoreload
-      speed-test       > network speed testing
-      tern             > js autocompletion tool
+      ngrok            > local server tunneling
+      nodemon          > filesystem monitor and autoreloader
       ts-node          > typescript repl
       tsc              > typescript compiler
       tsserver         > typescript standalone server
       vtop             > top w/ pretty graphs
    remote/             > scripts for remote machines
-      debian/          > scripts for debian systems
-      ubuntu/          > scripts for ubuntu systems
+      debian/          >     ... for debian systems
+      ubuntu/          >     ... for ubuntu systems
    gqr                 > text-to-qr-code script
 
  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
