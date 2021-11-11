@@ -13,9 +13,9 @@
     "fx": "^20.0.2",
     "neovim": "^4.10.0",
     "ngrok": "^4.2.2",
-    "nodemon": "^2.0.13",
-    "npm-check-updates": "^11.8.5",
-    "ts-node": "^10.3.0",
+    "nodemon": "^2.0.15",
+    "npm-check-updates": "^12.0.2",
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
     "vtop": "^0.6.1"
   }
