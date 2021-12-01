@@ -78,19 +78,15 @@ $RECYCLE.BIN/
 njs/node_modules/*
 
 # symlinks
-fx
-speed-test
-tern
-vtop
-ngrok
-tsc
-ts-node
-neovim-node-host
-tsserver
-nodemon
 asciicast2gif
-
-# binaries
-Telegram
-Updater
-vpp
+fx
+neovim-node-host
+nodemon
+serve
+svgo
+ts-node
+tsc
+tsserver
+uglifyjs
+vtop
+yarn

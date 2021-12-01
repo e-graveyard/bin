@@ -10,9 +10,12 @@ install:
 	@[ -L "../tsc" ]              || ln -s $(DIR)/node_modules/.bin/tsc ../
 	@[ -L "../tsserver" ]         || ln -s $(DIR)/node_modules/.bin/tsserver ../
 	@[ -L "../ts-node" ]          || ln -s $(DIR)/node_modules/.bin/ts-node ../
-	@[ -L "../ngrok" ]            || ln -s $(DIR)/node_modules/.bin/ngrok ../
 	@[ -L "../neovim-node-host" ] || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
 	@[ -L "../nodemon" ]          || ln -s $(DIR)/node_modules/.bin/nodemon ../
+	@[ -L "../svgo" ]             || ln -s $(DIR)/node_modules/.bin/svgo ../
+	@[ -L "../uglifyjs" ]         || ln -s $(DIR)/node_modules/.bin/uglifyjs ../
+	@[ -L "../yarn" ]             || ln -s $(DIR)/node_modules/.bin/yarn ../
+	@[ -L "../serve" ]            || ln -s $(DIR)/node_modules/.bin/serve ../
 
 clean:
 	@[ -L "../asciicast2gif" ]    && unlink ../asciicast2gif    || true
@@ -21,6 +24,9 @@ clean:
 	@[ -L "../tsc" ]              && unlink ../tsc              || true
 	@[ -L "../tsserver" ]         && unlink ../tsserver         || true
 	@[ -L "../ts-node" ]          && unlink ../ts-node          || true
-	@[ -L "../ngrok" ]            && unlink ../ngrok            || true
 	@[ -L "../neovim-node-host" ] && unlink ../neovim-node-host || true
 	@[ -L "../nodemon" ]          && unlink ../nodemon          || true
+	@[ -L "../svgo" ]             && unlink ../svgo             || true
+	@[ -L "../uglifyjs" ]         && unlink ../uglifyjs         || true
+	@[ -L "../yarn" ]             && unlink ../yarn             || true
+	@[ -L "../serve" ]            && unlink ../serve            || true
