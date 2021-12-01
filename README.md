@@ -21,12 +21,15 @@
       asciicast2gif    > convert asciicast records to gif
       fx               > json visulization
       neovim-node-host > neovim host for nodejs
-      ngrok            > local server tunneling
       nodemon          > filesystem monitor and autoreloader
+      serve            > serve the content of any dir as a server
+      svgo             > svg files optimization
       ts-node          > typescript repl
       tsc              > typescript compiler
       tsserver         > typescript standalone server
+      uglifyjs         > javascript files minification
       vtop             > top w/ pretty graphs
+      yarn             > yet another package manager for node
    remote/             > scripts for remote machines
       debian/          >     ... for debian systems
       ubuntu/          >     ... for ubuntu systems
