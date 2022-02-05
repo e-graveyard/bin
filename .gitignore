@@ -79,7 +79,9 @@ njs/node_modules/*
 
 # symlinks
 asciicast2gif
+create-directus-project
 fx
+gatsby
 neovim-node-host
 nodemon
 serve
