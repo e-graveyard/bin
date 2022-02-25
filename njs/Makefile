@@ -3,7 +3,7 @@
 DIR := ${CURDIR}
 
 install:
-	@npm i
+	@pnpm i
 	@[ -L "../asciicast2gif" ]           || ln -s $(DIR)/node_modules/.bin/asciicast2gif ../
 	@[ -L "../fx" ]                      || ln -s $(DIR)/node_modules/.bin/fx ../
 	@[ -L "../vtop" ]                    || ln -s $(DIR)/node_modules/.bin/vtop ../
@@ -14,7 +14,6 @@ install:
 	@[ -L "../nodemon" ]                 || ln -s $(DIR)/node_modules/.bin/nodemon ../
 	@[ -L "../svgo" ]                    || ln -s $(DIR)/node_modules/.bin/svgo ../
 	@[ -L "../uglifyjs" ]                || ln -s $(DIR)/node_modules/.bin/uglifyjs ../
-	@[ -L "../yarn" ]                    || ln -s $(DIR)/node_modules/.bin/yarn ../
 	@[ -L "../serve" ]                   || ln -s $(DIR)/node_modules/.bin/serve ../
 	@[ -L "../gatsby" ]                  || ln -s $(DIR)/node_modules/.bin/gatsby ../
 	@[ -L "../create-directus-project" ] || ln -s $(DIR)/node_modules/.bin/create-directus-project ../
@@ -30,7 +29,6 @@ clean:
 	@[ -L "../nodemon" ]                 && unlink ../nodemon                 || true
 	@[ -L "../svgo" ]                    && unlink ../svgo                    || true
 	@[ -L "../uglifyjs" ]                && unlink ../uglifyjs                || true
-	@[ -L "../yarn" ]                    && unlink ../yarn                    || true
 	@[ -L "../serve" ]                   && unlink ../serve                   || true
 	@[ -L "../gatsby" ]                  && unlink ../gatsby                  || true
 	@[ -L "../create-directus-project" ] && unlink ../create-directus-project || true
