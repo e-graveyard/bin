@@ -29,7 +29,6 @@
       tsserver         > typescript standalone server
       uglifyjs         > javascript files minification
       vtop             > top w/ pretty graphs
-      yarn             > yet another package manager for node
    remote/             > scripts for remote machines
       debian/          >     ... for debian systems
       ubuntu/          >     ... for ubuntu systems
