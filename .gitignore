@@ -84,6 +84,7 @@ fx
 gatsby
 neovim-node-host
 nodemon
+pm2
 serve
 svgo
 ts-node
