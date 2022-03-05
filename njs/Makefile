@@ -10,7 +10,6 @@ install:
 	@[ -L "../gatsby" ]                  || ln -s $(DIR)/node_modules/.bin/gatsby ../
 	@[ -L "../neovim-node-host" ]        || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
 	@[ -L "../nodemon" ]                 || ln -s $(DIR)/node_modules/.bin/nodemon ../
-	@[ -L "../pm2" ]                     || ln -s $(DIR)/node_modules/.bin/pm2 ../
 	@[ -L "../serve" ]                   || ln -s $(DIR)/node_modules/.bin/serve ../
 	@[ -L "../svgo" ]                    || ln -s $(DIR)/node_modules/.bin/svgo ../
 	@[ -L "../ts-node" ]                 || ln -s $(DIR)/node_modules/.bin/ts-node ../
@@ -26,7 +25,6 @@ clean:
 	@[ -L "../gatsby" ]                  && unlink ../gatsby                  || true
 	@[ -L "../neovim-node-host" ]        && unlink ../neovim-node-host        || true
 	@[ -L "../nodemon" ]                 && unlink ../nodemon                 || true
-	@[ -L "../pm2" ]                     && unlink ../pm2                     || true
 	@[ -L "../serve" ]                   && unlink ../serve                   || true
 	@[ -L "../svgo" ]                    && unlink ../svgo                    || true
 	@[ -L "../ts-node" ]                 && unlink ../ts-node                 || true
