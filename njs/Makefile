@@ -16,7 +16,6 @@ install:
 	@[ -L "../tsc" ]                     || ln -s $(DIR)/node_modules/.bin/tsc ../
 	@[ -L "../tsserver" ]                || ln -s $(DIR)/node_modules/.bin/tsserver ../
 	@[ -L "../uglifyjs" ]                || ln -s $(DIR)/node_modules/.bin/uglifyjs ../
-	@[ -L "../vtop" ]                    || ln -s $(DIR)/node_modules/.bin/vtop ../
 
 clean:
 	@[ -L "../asciicast2gif" ]           && unlink ../asciicast2gif           || true
@@ -31,4 +30,3 @@ clean:
 	@[ -L "../tsc" ]                     && unlink ../tsc                     || true
 	@[ -L "../tsserver" ]                && unlink ../tsserver                || true
 	@[ -L "../uglifyjs" ]                && unlink ../uglifyjs                || true
-	@[ -L "../vtop" ]                    && unlink ../vtop                    || true
