@@ -9,7 +9,7 @@
            ░██████   ░██   ███  ░██
            ░░░░░     ░░   ░░░   ░░
 
-  Collection of scripts, utilities and hacks
+  a collection of scripts, utilities and hacks
 
       author : Caian Ertl <hi@caian.org>
         code : github.com/caian-org/bin
@@ -19,13 +19,13 @@
 
        ___
       /|  |
-     |:|  | To the extent possible under
-     |:|  | law, Caian Rais Ertl has waived
+     |:|  | to the extent possible under
+     |:|  | law, caian ertl has waived
    __|:|  | all copyright and related or
   /\ |:|__|____ neighboring right to this
   \:\/:::::/__/ work.
    \::/~~/~
-    \:\~~\ KOPIMI ^C ^V
+    \:\~~\ kopimi ^c ^v
      \:\__\
       \/__/
 
