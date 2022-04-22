@@ -1,0 +1,65 @@
+name: check-njs
+
+# only when something on "njs" dir has changed
+on:
+  push:
+    paths:
+      - 'njs/**'
+
+jobs:
+  check-njs:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.1
+        with:
+          version: 6.32.x
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Cache pnpm store
+        id: cache-node-modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./node_modules
+            ~/.pnpm-store
+          key: ${{ env.preffix }}-cache-${{ env.cache-name }}-${{ hashFiles('njs/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ env.preffix }}-cache-${{ env.cache-name }}-
+            ${{ env.preffix }}-cache-
+            ${{ env.preffix }}-
+        env:
+          cache-name: test-with-cov
+          preffix: ${{ runner.os }}
+
+      - name: Install dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: |
+          cd njs
+          pnpm i
+
+      - name: Test link & unlink
+        run: |
+          (
+            cd njs
+            make
+          )
+          ls -lash
+
+          (
+            cd njs
+            make clean
+          )
+          ls -lash
