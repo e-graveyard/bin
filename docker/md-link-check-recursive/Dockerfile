@@ -1,8 +1,8 @@
 # version=1.0.0
 #
 # usage:
-#  docker run --rm -v /my/absolute/local/path:/tmp/.docs check-docs-links
-#  docker run --rm -v ${PWD}:/tmp/.docs check-docs-links
+#  docker run --rm -v /my/absolute/local/path:/tmp/.docs caian/md-link-check-recursive
+#  docker run --rm -v ${PWD}:/tmp/.docs caian/md-link-check-recursive
 #
 # creates a container, auto-deletes, binds a local directory to "/tmp/.docs"
 #
