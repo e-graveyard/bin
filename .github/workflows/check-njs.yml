@@ -56,10 +56,15 @@ jobs:
             cd njs
             make
           )
+          echo "AFTER MAKE"
           ls -lash
+
+          echo "------------------------------------------------------------"
 
           (
             cd njs
             make clean
           )
+
+          echo "AFTER MAKE CLEAN"
           ls -lash
