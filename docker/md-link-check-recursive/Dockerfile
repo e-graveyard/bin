@@ -6,7 +6,7 @@
 #
 # creates a container, auto-deletes, binds a local directory to "/tmp/.docs"
 #
-FROM node:16-buster-slim AS base
+FROM node:18-buster-slim AS base
 LABEL maintainer="Caian Ertl <hi@caian.org>"
 
 ARG BIND_PATH=/tmp/.docs
