@@ -86,9 +86,9 @@ neovim-node-host
 nodemon
 pm2
 serve
+serverless
 svgo
 ts-node
 tsc
 tsserver
 uglifyjs
-vtop
