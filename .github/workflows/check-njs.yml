@@ -9,6 +9,9 @@ on:
 jobs:
   check-njs:
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: njs
 
     strategy:
       matrix:
@@ -18,53 +21,35 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.2.1
-        with:
-          version: 6.32.x
-
       - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
-      - name: Cache pnpm store
+      - name: Cache Node modules
         id: cache-node-modules
         uses: actions/cache@v3
         with:
-          path: |
-            ./node_modules
-            ~/.pnpm-store
-          key: ${{ env.preffix }}-cache-${{ env.cache-name }}-${{ hashFiles('njs/pnpm-lock.yaml') }}
+          path: njs/node_modules
+          key: ${{ env.preffix }}-node-modules-${{ hashFiles('./njs/package-lock.json') }}
           restore-keys: |
-            ${{ env.preffix }}-cache-${{ env.cache-name }}-
-            ${{ env.preffix }}-cache-
+            ${{ env.preffix }}-node-modules-
             ${{ env.preffix }}-
         env:
-          cache-name: test-with-cov
-          preffix: ${{ runner.os }}
+          preffix: os-${{ runner.os }}
 
       - name: Install dependencies
+        run: npm install
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: |
-          cd njs
-          pnpm i
 
-      - name: Test link & unlink
-        run: |
-          (
-            cd njs
-            make
-          )
-          echo "AFTER MAKE"
-          ls -lash
+      - name: Test symlink
+        run: make
 
-          echo "------------------------------------------------------------"
+      - name: Root directory list (post-sylink)
+        run: ls -lash ..
 
-          (
-            cd njs
-            make clean
-          )
+      - name: Test unlink
+        run: make clean
 
-          echo "AFTER MAKE CLEAN"
-          ls -lash
+      - name: Root directory list (post unlink)
+        run: ls -lash ..
