@@ -1,21 +1,23 @@
 .DEFAULT_TARGET := install
 
-DIR := ${CURDIR}
+NJS_BIN := ${CURDIR}/node_modules/.bin
 
 install:
-	@pnpm i
-	@[ -L "../asciicast2gif" ]           || ln -s $(DIR)/node_modules/.bin/asciicast2gif ../
-	@[ -L "../create-directus-project" ] || ln -s $(DIR)/node_modules/.bin/create-directus-project ../
-	@[ -L "../fx" ]                      || ln -s $(DIR)/node_modules/.bin/fx ../
-	@[ -L "../gatsby" ]                  || ln -s $(DIR)/node_modules/.bin/gatsby ../
-	@[ -L "../neovim-node-host" ]        || ln -s $(DIR)/node_modules/.bin/neovim-node-host ../
-	@[ -L "../nodemon" ]                 || ln -s $(DIR)/node_modules/.bin/nodemon ../
-	@[ -L "../serve" ]                   || ln -s $(DIR)/node_modules/.bin/serve ../
-	@[ -L "../svgo" ]                    || ln -s $(DIR)/node_modules/.bin/svgo ../
-	@[ -L "../ts-node" ]                 || ln -s $(DIR)/node_modules/.bin/ts-node ../
-	@[ -L "../tsc" ]                     || ln -s $(DIR)/node_modules/.bin/tsc ../
-	@[ -L "../tsserver" ]                || ln -s $(DIR)/node_modules/.bin/tsserver ../
-	@[ -L "../uglifyjs" ]                || ln -s $(DIR)/node_modules/.bin/uglifyjs ../
+	@npm i
+	@[ -L "../asciicast2gif" ]           || ln -s $(NJS_BIN)/asciicast2gif ../
+	@[ -L "../create-directus-project" ] || ln -s $(NJS_BIN)/create-directus-project ../
+	@[ -L "../fx" ]                      || ln -s $(NJS_BIN)/fx ../
+	@[ -L "../gatsby" ]                  || ln -s $(NJS_BIN)/gatsby ../
+	@[ -L "../neovim-node-host" ]        || ln -s $(NJS_BIN)/neovim-node-host ../
+	@[ -L "../nodemon" ]                 || ln -s $(NJS_BIN)/nodemon ../
+	@[ -L "../pm2" ]                     || ln -s $(NJS_BIN)/pm2 ../
+	@[ -L "../serve" ]                   || ln -s $(NJS_BIN)/serve ../
+	@[ -L "../serverless" ]              || ln -s $(NJS_BIN)/serverless ../
+	@[ -L "../svgo" ]                    || ln -s $(NJS_BIN)/svgo ../
+	@[ -L "../ts-node" ]                 || ln -s $(NJS_BIN)/ts-node ../
+	@[ -L "../tsc" ]                     || ln -s $(NJS_BIN)/tsc ../
+	@[ -L "../tsserver" ]                || ln -s $(NJS_BIN)/tsserver ../
+	@[ -L "../uglifyjs" ]                || ln -s $(NJS_BIN)/uglifyjs ../
 
 clean:
 	@[ -L "../asciicast2gif" ]           && unlink ../asciicast2gif           || true
@@ -24,7 +26,9 @@ clean:
 	@[ -L "../gatsby" ]                  && unlink ../gatsby                  || true
 	@[ -L "../neovim-node-host" ]        && unlink ../neovim-node-host        || true
 	@[ -L "../nodemon" ]                 && unlink ../nodemon                 || true
+	@[ -L "../pm2" ]                     && unlink ../pm2                     || true
 	@[ -L "../serve" ]                   && unlink ../serve                   || true
+	@[ -L "../serverless" ]              && unlink ../serverless              || true
 	@[ -L "../svgo" ]                    && unlink ../svgo                    || true
 	@[ -L "../ts-node" ]                 && unlink ../ts-node                 || true
 	@[ -L "../tsc" ]                     && unlink ../tsc                     || true
