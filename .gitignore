@@ -77,7 +77,7 @@ $RECYCLE.BIN/
 # node
 njs/node_modules/*
 
-# symlinks
+# nodejs programs symlinks
 asciicast2gif
 create-directus-project
 fx
@@ -92,3 +92,14 @@ ts-node
 tsc
 tsserver
 uglifyjs
+
+# pip programs symlinks
+aws
+bandit
+ciphey
+flake8
+grip
+img2pdf
+isort
+pip-review
+pylint
