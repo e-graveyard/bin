@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "asciicast2gif": "^0.2.1",
-    "create-directus-project": "^9.9.1",
+    "create-directus-project": "^9.10.0",
     "fx": "^20.0.2",
     "gatsby-cli": "^4.13.0",
     "neovim": "^4.10.1",
