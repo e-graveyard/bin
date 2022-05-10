@@ -21,14 +21,14 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "awscli"
-version = "1.23.9"
+version = "1.23.10"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.6"
 
 [package.dependencies]
-botocore = "1.25.9"
+botocore = "1.25.10"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.16"
 PyYAML = ">=3.10,<5.5"
@@ -75,7 +75,7 @@ python-versions = "*"
 
 [[package]]
 name = "botocore"
-version = "1.25.9"
+version = "1.25.10"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -1058,7 +1058,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "b77617856682de121101537746917e04b7950d14390b7237511fc2051ab3700d"
+content-hash = "1bfc75851411215e80c75d84c79fc79ae71cf9ee62169fa1f029931eac102fd5"
 
 [metadata.files]
 appdirs = [
@@ -1070,8 +1070,8 @@ astroid = [
     {file = "astroid-2.11.4.tar.gz", hash = "sha256:561dc6015eecce7e696ff7e3b40434bc56831afeff783f0ea853e19c4f635c06"},
 ]
 awscli = [
-    {file = "awscli-1.23.9-py3-none-any.whl", hash = "sha256:fd84cd84be305e5ed389c637901d7056e64fb130a3d709c178befda93a58811f"},
-    {file = "awscli-1.23.9.tar.gz", hash = "sha256:f464f2f98577948d9dd4e8f64e74ceac23596367e874108f2c0f770362a62257"},
+    {file = "awscli-1.23.10-py3-none-any.whl", hash = "sha256:a7c99d773af1f359a22c219432fdc07072ddc46d448e025a1869e86851b260f7"},
+    {file = "awscli-1.23.10.tar.gz", hash = "sha256:67c068a8b9e9ec85a80fcdc37616287822ae7283b286e0442e263fed7fdc6a29"},
 ]
 bandit = [
     {file = "bandit-1.7.4-py3-none-any.whl", hash = "sha256:412d3f259dab4077d0e7f0c11f50f650cc7d10db905d98f6520a95a18049658a"},
@@ -1089,8 +1089,8 @@ base91 = [
     {file = "base91-1.0.1.tar.gz", hash = "sha256:5b284a2ba3c97be1eb9473f3af94a9bf141d61005d836e75e645d2798da58799"},
 ]
 botocore = [
-    {file = "botocore-1.25.9-py3-none-any.whl", hash = "sha256:71962de55b053a0124a0514155f4cdcf0bce81795ffc2bd6e000c1594e99125a"},
-    {file = "botocore-1.25.9.tar.gz", hash = "sha256:a1d26b95aaa5b2e126df74b223d774fae7e6597bb55c363782178f5b87f0cad3"},
+    {file = "botocore-1.25.10-py3-none-any.whl", hash = "sha256:a4e9dd2b7ce4bf41200108af6b9d3f21ff53a95324f8a66638c4afdf27da44d3"},
+    {file = "botocore-1.25.10.tar.gz", hash = "sha256:d4738b1c6ae3a905be39422e7a5ca99e4028efc9017c2694cbebbe12c899fc78"},
 ]
 certifi = [
     {file = "certifi-2021.10.8-py2.py3-none-any.whl", hash = "sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569"},
@@ -1586,6 +1586,7 @@ pyasn1 = [
     {file = "pyasn1-0.4.8.tar.gz", hash = "sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba"},
 ]
 pybase62 = [
+    {file = "pybase62-0.4.3-py3-none-any.whl", hash = "sha256:aaf020d0cf0959cb8576f502138b8e3daecf691b9b30626792d34df6103da7c1"},
     {file = "pybase62-0.4.3.tar.gz", hash = "sha256:0fbbe8474fc5fb020cc7f94dc88adfd12ef9bf38640c46612568ea07f046438c"},
 ]
 pycodestyle = [
