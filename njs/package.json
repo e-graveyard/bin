@@ -15,7 +15,7 @@
     "gatsby-cli": "^4.14.0",
     "neovim": "^4.10.1",
     "nodemon": "^2.0.16",
-    "npm-check-updates": "^12.5.11",
+    "npm-check-updates": "^13.0.0",
     "pm2": "^5.2.0",
     "serve": "^13.0.2",
     "serverless": "^3.17.0",
