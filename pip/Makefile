@@ -6,7 +6,6 @@ install:
 	@poetry install
 	@[ -L "../aws" ]        || ln -s $(PIP_BIN)/aws ../
 	@[ -L "../bandit" ]     || ln -s $(PIP_BIN)/bandit ../
-	@[ -L "../ciphey" ]     || ln -s $(PIP_BIN)/ciphey ../
 	@[ -L "../flake8" ]     || ln -s $(PIP_BIN)/flake8 ../
 	@[ -L "../grip" ]       || ln -s $(PIP_BIN)/grip ../
 	@[ -L "../img2pdf" ]    || ln -s $(PIP_BIN)/img2pdf ../
@@ -18,7 +17,6 @@ install:
 clean:
 	@[ -L "../aws" ]        && unlink ../aws        || true
 	@[ -L "../bandit" ]     && unlink ../bandit     || true
-	@[ -L "../ciphey" ]     && unlink ../ciphey     || true
 	@[ -L "../flake8" ]     && unlink ../flake8     || true
 	@[ -L "../grip" ]       && unlink ../grip       || true
 	@[ -L "../img2pdf" ]    && unlink ../img2pdf    || true
