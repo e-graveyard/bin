@@ -45,7 +45,7 @@ jobs:
       - name: Test symlink
         run: make
 
-      - name: Root directory list (post-sylink)
+      - name: Root directory list (post-symlink)
         run: ls -lash ..
 
       - name: Test unlink
