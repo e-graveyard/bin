@@ -4,19 +4,19 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /njs
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: pip
     directory: /pip
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: docker
     directory: /docker/md-link-check-recursive
     schedule:
-      interval: daily
+      interval: weekly
