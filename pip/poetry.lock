@@ -13,14 +13,14 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "awscli"
-version = "1.25.12"
+version = "1.25.17"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = "1.27.12"
+botocore = "1.27.17"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<5.5"
@@ -48,7 +48,7 @@ yaml = ["pyyaml"]
 
 [[package]]
 name = "botocore"
-version = "1.27.12"
+version = "1.27.17"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -894,7 +894,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "f2a6883ec365e4db2ed4071b5aabc9977f0e1e34c3224c35ac050a14fcfaccbf"
+content-hash = "8801300e681d789b252265924495ea681cf3d86384eb247905266b163fe461ca"
 
 [metadata.files]
 astroid = [
@@ -902,16 +902,16 @@ astroid = [
     {file = "astroid-2.11.6.tar.gz", hash = "sha256:4f933d0bf5e408b03a6feb5d23793740c27e07340605f236496cd6ce552043d6"},
 ]
 awscli = [
-    {file = "awscli-1.25.12-py3-none-any.whl", hash = "sha256:f6b929879ef43b9e7eb8e1c26eced7852ccff01cd28c5ba932be16f51812495b"},
-    {file = "awscli-1.25.12.tar.gz", hash = "sha256:166f4404c57da29c2e620350080349225ef60277592810fbc812e0304c045173"},
+    {file = "awscli-1.25.17-py3-none-any.whl", hash = "sha256:e67725a70f62eeb37ffb450be0ab68db550b684aa622688d6f34d5794a7dceab"},
+    {file = "awscli-1.25.17.tar.gz", hash = "sha256:071fa70ef8df7ee21286f57ce05de6b572b84d5d36100ce1a46d0892a8db3c56"},
 ]
 bandit = [
     {file = "bandit-1.7.4-py3-none-any.whl", hash = "sha256:412d3f259dab4077d0e7f0c11f50f650cc7d10db905d98f6520a95a18049658a"},
     {file = "bandit-1.7.4.tar.gz", hash = "sha256:2d63a8c573417bae338962d4b9b06fbc6080f74ecd955a092849e1e65c717bd2"},
 ]
 botocore = [
-    {file = "botocore-1.27.12-py3-none-any.whl", hash = "sha256:b8ac156e55267da6e728ea0b806bfcd97adf882801cffe7849c4b88ce4780326"},
-    {file = "botocore-1.27.12.tar.gz", hash = "sha256:17d3ec9f684d21e06b64d9cb224934557bcd95031e2ecb551bf16271e8722fec"},
+    {file = "botocore-1.27.17-py3-none-any.whl", hash = "sha256:baf60b803ffd7b1dbc9c93dd2049fe2372699e4c993c9d33713667acdea64d1f"},
+    {file = "botocore-1.27.17.tar.gz", hash = "sha256:af9d44592b4d0d6509b355b2ec5cb14fd23eadf7c33d13b880266dede22759ac"},
 ]
 certifi = [
     {file = "certifi-2022.6.15-py3-none-any.whl", hash = "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"},
