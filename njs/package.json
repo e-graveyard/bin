@@ -12,18 +12,18 @@
     "asciicast2gif": "^0.2.1",
     "fx": "^20.0.2",
     "neovim": "^4.10.1",
-    "nodemon": "^2.0.16",
-    "npm-check-updates": "^14.0.1",
+    "nodemon": "^2.0.19",
+    "npm-check-updates": "^15.2.5",
     "pm2": "^5.2.0",
-    "serve": "^13.0.2",
-    "serverless": "^3.19.0",
+    "serve": "^13.0.4",
+    "serverless": "^3.20.0",
     "serverless-deployment-bucket": "^1.6.0",
     "svgo": "^2.8.0",
-    "ts-node": "^10.8.1",
+    "ts-node": "^10.8.2",
     "typescript": "^4.7.4",
-    "uglify-js": "^3.16.1"
+    "uglify-js": "^3.16.2"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.3"
   }
 }
