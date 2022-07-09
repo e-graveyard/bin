@@ -6,20 +6,19 @@ authors     = ["Caian Ertl <hi@caian.org>"]
 
 [tool.poetry.dependencies]
 python     = "^3.9"
-awscli     = "1.25.12"
+awscli     = "1.25.26"
 bandit     = "1.7.4"
 grip       = "4.6.1"
 img2pdf    = "0.4.4"
 invoke     = "1.7.1"
 isort      = "5.10.1"
 jedi       = "0.18.1"
-pip-review = "1.1.1"
 prospector = "1.7.7"
 pydocstyle = "6.1.1"
 pynvim     = "0.4.3"
 pywal      = "3.3.0"
 qr         = "0.6.0"
-pylint = "2.14.2"
+pylint     = "2.14.2"
 
 [tool.poetry.dev-dependencies]
 
