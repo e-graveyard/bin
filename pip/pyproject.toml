@@ -6,7 +6,7 @@ authors     = ["Caian Ertl <hi@caian.org>"]
 
 [tool.poetry.dependencies]
 python     = "^3.9"
-awscli     = "1.25.26"
+awscli     = "1.25.62"
 bandit     = "1.7.4"
 grip       = "4.6.1"
 img2pdf    = "0.4.4"

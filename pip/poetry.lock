@@ -13,14 +13,14 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "awscli"
-version = "1.25.26"
+version = "1.25.62"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = "1.27.26"
+botocore = "1.27.61"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<5.5"
@@ -48,7 +48,7 @@ yaml = ["pyyaml"]
 
 [[package]]
 name = "botocore"
-version = "1.27.26"
+version = "1.27.61"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -60,7 +60,7 @@ python-dateutil = ">=2.1,<3.0.0"
 urllib3 = ">=1.25.4,<1.27"
 
 [package.extras]
-crt = ["awscrt (==0.13.8)"]
+crt = ["awscrt (==0.14.0)"]
 
 [[package]]
 name = "certifi"
@@ -909,7 +909,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "93ecb1177f653505cfdfeba90dad58ebb6c3520210586358dca78352d5f66a50"
+content-hash = "dfcd91d984b0fcb615b6c33dbf7f5f5130624332f87622ee7f2e7f209d8eed65"
 
 [metadata.files]
 astroid = [
@@ -917,16 +917,16 @@ astroid = [
     {file = "astroid-2.11.7.tar.gz", hash = "sha256:bb24615c77f4837c707669d16907331374ae8a964650a66999da3f5ca68dc946"},
 ]
 awscli = [
-    {file = "awscli-1.25.26-py3-none-any.whl", hash = "sha256:74a30fa42cf381faba9a4ce4a5d222d729c7294dd460d79641802218ff0ceefd"},
-    {file = "awscli-1.25.26.tar.gz", hash = "sha256:dd7da9d425274d6dbcf3b6d8e4b0aca266e97e2fe979f871369b42cbf2c1f7a3"},
+    {file = "awscli-1.25.62-py3-none-any.whl", hash = "sha256:9101e6faf32849da44365677a328ce06c1f04bfff437958d1d05e100411477ea"},
+    {file = "awscli-1.25.62.tar.gz", hash = "sha256:03de194ab0bc169b738c1dea3aabfb35b7d97cba42af81198f368aaf7fdc8713"},
 ]
 bandit = [
     {file = "bandit-1.7.4-py3-none-any.whl", hash = "sha256:412d3f259dab4077d0e7f0c11f50f650cc7d10db905d98f6520a95a18049658a"},
     {file = "bandit-1.7.4.tar.gz", hash = "sha256:2d63a8c573417bae338962d4b9b06fbc6080f74ecd955a092849e1e65c717bd2"},
 ]
 botocore = [
-    {file = "botocore-1.27.26-py3-none-any.whl", hash = "sha256:0436b1e3fae36ea53760380e87cd80f94c8cdd3085c84a8a431d1182cf5b99e8"},
-    {file = "botocore-1.27.26.tar.gz", hash = "sha256:4a46d0508470883dc97ab8e9769617f21229f4ff8c146a47379f4042d917e520"},
+    {file = "botocore-1.27.61-py3-none-any.whl", hash = "sha256:535c8e97ed28a38fd09dd8f4735195e761bbee54e4c6021f3a709a97b1287dd6"},
+    {file = "botocore-1.27.61.tar.gz", hash = "sha256:99012965e2409665c7d86706862c5a141e01e1c4d2c81cb9409a44200ee59631"},
 ]
 certifi = [
     {file = "certifi-2022.6.15-py3-none-any.whl", hash = "sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412"},
@@ -1318,6 +1318,7 @@ pep8-naming = [
 ]
 pikepdf = [
     {file = "pikepdf-5.5.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:2cbb53f1d2979a52f4cd2b4a12410e537dc854ab28093b56dab00864dc0090c4"},
+    {file = "pikepdf-5.5.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:1804b039d66f0fe878eddf7c6b7ee0166926f3b66f9c243487c5eb552e8c95f6"},
     {file = "pikepdf-5.5.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c94af61eb542289b4411ebcb8d46ccce678eaca1f9dfd1cfe720bd3ea75a4839"},
     {file = "pikepdf-5.5.0-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:09fd6ad782a93a1f7599771132502c7ca4ac6473527925cd822f61f0740e1401"},
     {file = "pikepdf-5.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a6fa014b9c49e6a8fab37b0ac6a775ad9254df24d8468a554ec9a38f610afd1e"},
@@ -1336,6 +1337,7 @@ pikepdf = [
     {file = "pikepdf-5.5.0-cp38-cp38-win32.whl", hash = "sha256:9159798c95c0f25ffb0a1610e26b9d412cd0936f041fb77be8abaab9dc69ed3d"},
     {file = "pikepdf-5.5.0-cp38-cp38-win_amd64.whl", hash = "sha256:c9352a909f7c6cbcb743d1510fdbfdd7f2bf42fdd4f34b0234558d24bdb2f738"},
     {file = "pikepdf-5.5.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:6789a8ff3635f8c830b758468a07fb907b87e0da39684b28d21990fef33f57df"},
+    {file = "pikepdf-5.5.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:25e651d584e1e347ef76c4e9dbcc3c23539e851abb634ade11260b2632589dd5"},
     {file = "pikepdf-5.5.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:62dab267b5c37e5ca69864b4125cfd60462567f4120506ec6439a76ca9c50e6f"},
     {file = "pikepdf-5.5.0-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:4534efdcde2d5f7a8cad336393c0cb9c5a38d28c91ac4d8e1c5d32d1cf03cb84"},
     {file = "pikepdf-5.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:53f253be2df5cd72594dd7518a20bf8c9df391510557ed065f74bf66b09cd9f1"},
