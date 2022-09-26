@@ -14,14 +14,14 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "awscli"
-version = "1.25.74"
+version = "1.25.81"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = "1.27.73"
+botocore = "1.27.80"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<5.5"
@@ -49,7 +49,7 @@ yaml = ["PyYAML"]
 
 [[package]]
 name = "botocore"
-version = "1.27.73"
+version = "1.27.80"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -923,7 +923,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "645f51f8254701e9c3aee4e840f2014ab43b62b98a41223f333d095c503f6496"
+content-hash = "4450595532c3e8e0d5d814defe5acf84d55ccb3a6e0808e0986925fcc11f15ad"
 
 [metadata.files]
 astroid = [
@@ -931,16 +931,16 @@ astroid = [
     {file = "astroid-2.11.7.tar.gz", hash = "sha256:bb24615c77f4837c707669d16907331374ae8a964650a66999da3f5ca68dc946"},
 ]
 awscli = [
-    {file = "awscli-1.25.74-py3-none-any.whl", hash = "sha256:8e19063047403320df64ccb5bf74ff9025e7287dbbf38d4a65ff728a03db6d7e"},
-    {file = "awscli-1.25.74.tar.gz", hash = "sha256:f40d8d3c76d7f70510ec8152de529296b64cc1594c0c58487c407541c5b0f512"},
+    {file = "awscli-1.25.81-py3-none-any.whl", hash = "sha256:e8dc29f17376feadfedd3edb7f64f14481b5f2fd9741cf7b28405ac3389c1d53"},
+    {file = "awscli-1.25.81.tar.gz", hash = "sha256:4cb2f8a12d2772ade9a093125f39bdc48434502813d6326a39e707d73b47d90b"},
 ]
 bandit = [
     {file = "bandit-1.7.4-py3-none-any.whl", hash = "sha256:412d3f259dab4077d0e7f0c11f50f650cc7d10db905d98f6520a95a18049658a"},
     {file = "bandit-1.7.4.tar.gz", hash = "sha256:2d63a8c573417bae338962d4b9b06fbc6080f74ecd955a092849e1e65c717bd2"},
 ]
 botocore = [
-    {file = "botocore-1.27.73-py3-none-any.whl", hash = "sha256:0b94d1e7b1435f8ff108c74a09fe03ec88aadbfafe97e940ea415dc86ba305a3"},
-    {file = "botocore-1.27.73.tar.gz", hash = "sha256:e281e45e84d2728207d63499a37cea1dc1dde6093167ab238370ece67f6e7316"},
+    {file = "botocore-1.27.80-py3-none-any.whl", hash = "sha256:412145ab8b9ec2ee3c9ecf43e06f9fe0fc03cc645add8314327e69e58be78cab"},
+    {file = "botocore-1.27.80.tar.gz", hash = "sha256:0f8b937c41e7ea92c5374e83d54c006d99d9f9fa203175fbfb1ded74c28e9759"},
 ]
 certifi = [
     {file = "certifi-2022.9.14-py3-none-any.whl", hash = "sha256:e232343de1ab72c2aa521b625c80f699e356830fd0e2c620b465b304b17b0516"},
@@ -1332,6 +1332,7 @@ pep8-naming = [
 ]
 pikepdf = [
     {file = "pikepdf-6.0.0.post2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d5de05126f57e216dca55c24e9abf5a54aaa1fc87986efae3d31cc394449e640"},
+    {file = "pikepdf-6.0.0.post2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:666c2e77e3be295bc2fed1c69f117c2a969ad5a3b63aaf470ffb1f09e623d2c0"},
     {file = "pikepdf-6.0.0.post2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:095214a629b5b023e0480558bf8fa54e2c797c4b93440ccf5c66e620e447755d"},
     {file = "pikepdf-6.0.0.post2-cp310-cp310-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:4ab2de5ee20828458985f3258fae62ddabf9faa50131c3e89461d6f40c7eb046"},
     {file = "pikepdf-6.0.0.post2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6fc5104c97d9ca6d1719cf4cb6ed655e1d5b28de12b94218bdfa062841c0c196"},
@@ -1344,6 +1345,7 @@ pikepdf = [
     {file = "pikepdf-6.0.0.post2-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e4dec2c315aa72d2c36c464d77f73fcc90c8876f682994fcd01bf0b76712503a"},
     {file = "pikepdf-6.0.0.post2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bf5c14b7969d4f90f7bbd08dccd97858ec140baf9fcd541b915736d404c24158"},
     {file = "pikepdf-6.0.0.post2-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:6b6a095ae458c3583f71490780136a08b846efd2716d9f817261f8d23477e2c9"},
+    {file = "pikepdf-6.0.0.post2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:25642a829829418a15d587884ad3c74a9410ce9a24cd620c4d15deaaeb2197d6"},
     {file = "pikepdf-6.0.0.post2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6c8c72df63896762e0026896d7949f4efe9b07ad98f3ae0ef2dbe25012b5d290"},
     {file = "pikepdf-6.0.0.post2-cp39-cp39-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:776b286d6e23b475ae026ea78bd0f1d808690fb61ec3e180d3f4c2211eadf1c4"},
     {file = "pikepdf-6.0.0.post2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e0e651fb07e542f088fe59f2e6165eb8afc68651cecd623c5ad53b4045d236ca"},
@@ -1424,18 +1426,7 @@ prospector = [
     {file = "prospector-1.7.7.tar.gz", hash = "sha256:c04b3d593e7c525cf9a742fed62afbe02e2874f0e42f2f56a49378fd94037360"},
 ]
 pyasn1 = [
-    {file = "pyasn1-0.4.8-py2.4.egg", hash = "sha256:fec3e9d8e36808a28efb59b489e4528c10ad0f480e57dcc32b4de5c9d8c9fdf3"},
-    {file = "pyasn1-0.4.8-py2.5.egg", hash = "sha256:0458773cfe65b153891ac249bcf1b5f8f320b7c2ce462151f8fa74de8934becf"},
-    {file = "pyasn1-0.4.8-py2.6.egg", hash = "sha256:5c9414dcfede6e441f7e8f81b43b34e834731003427e5b09e4e00e3172a10f00"},
-    {file = "pyasn1-0.4.8-py2.7.egg", hash = "sha256:6e7545f1a61025a4e58bb336952c5061697da694db1cae97b116e9c46abcf7c8"},
     {file = "pyasn1-0.4.8-py2.py3-none-any.whl", hash = "sha256:39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d"},
-    {file = "pyasn1-0.4.8-py3.1.egg", hash = "sha256:78fa6da68ed2727915c4767bb386ab32cdba863caa7dbe473eaae45f9959da86"},
-    {file = "pyasn1-0.4.8-py3.2.egg", hash = "sha256:08c3c53b75eaa48d71cf8c710312316392ed40899cb34710d092e96745a358b7"},
-    {file = "pyasn1-0.4.8-py3.3.egg", hash = "sha256:03840c999ba71680a131cfaee6fab142e1ed9bbd9c693e285cc6aca0d555e576"},
-    {file = "pyasn1-0.4.8-py3.4.egg", hash = "sha256:7ab8a544af125fb704feadb008c99a88805126fb525280b2270bb25cc1d78a12"},
-    {file = "pyasn1-0.4.8-py3.5.egg", hash = "sha256:e89bf84b5437b532b0803ba5c9a5e054d21fec423a89952a74f87fa2c9b7bce2"},
-    {file = "pyasn1-0.4.8-py3.6.egg", hash = "sha256:014c0e9976956a08139dc0712ae195324a75e142284d5f87f1a87ee1b068a359"},
-    {file = "pyasn1-0.4.8-py3.7.egg", hash = "sha256:99fcc3c8d804d1bc6d9a099921e39d827026409a58f2a720dcdb89374ea0c776"},
     {file = "pyasn1-0.4.8.tar.gz", hash = "sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba"},
 ]
 pycodestyle = [
