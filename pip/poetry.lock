@@ -14,14 +14,14 @@ wrapt = ">=1.11,<2"
 
 [[package]]
 name = "awscli"
-version = "1.25.26"
+version = "1.25.74"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = "1.27.26"
+botocore = "1.27.73"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<5.5"
@@ -49,14 +49,14 @@ yaml = ["PyYAML"]
 
 [[package]]
 name = "boto3"
-version = "1.24.26"
+version = "1.24.73"
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = ">=1.27.26,<1.28.0"
+botocore = ">=1.27.73,<1.28.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -65,7 +65,7 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.27.26"
+version = "1.27.73"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -77,7 +77,7 @@ python-dateutil = ">=2.1,<3.0.0"
 urllib3 = ">=1.25.4,<1.27"
 
 [package.extras]
-crt = ["awscrt (==0.13.8)"]
+crt = ["awscrt (==0.14.0)"]
 
 [[package]]
 name = "certifi"
@@ -964,7 +964,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "dcfcb3fe0179616c083dbb80252617e4f166cc0fe28c512cdbfa9fdf7c082aa1"
+content-hash = "f28fe974b90e7a981d1ee6b77d1c6b12ff6ec8c1214e559a948f0683b05b3f93"
 
 [metadata.files]
 astroid = [
@@ -972,20 +972,20 @@ astroid = [
     {file = "astroid-2.11.7.tar.gz", hash = "sha256:bb24615c77f4837c707669d16907331374ae8a964650a66999da3f5ca68dc946"},
 ]
 awscli = [
-    {file = "awscli-1.25.26-py3-none-any.whl", hash = "sha256:74a30fa42cf381faba9a4ce4a5d222d729c7294dd460d79641802218ff0ceefd"},
-    {file = "awscli-1.25.26.tar.gz", hash = "sha256:dd7da9d425274d6dbcf3b6d8e4b0aca266e97e2fe979f871369b42cbf2c1f7a3"},
+    {file = "awscli-1.25.74-py3-none-any.whl", hash = "sha256:8e19063047403320df64ccb5bf74ff9025e7287dbbf38d4a65ff728a03db6d7e"},
+    {file = "awscli-1.25.74.tar.gz", hash = "sha256:f40d8d3c76d7f70510ec8152de529296b64cc1594c0c58487c407541c5b0f512"},
 ]
 bandit = [
     {file = "bandit-1.7.4-py3-none-any.whl", hash = "sha256:412d3f259dab4077d0e7f0c11f50f650cc7d10db905d98f6520a95a18049658a"},
     {file = "bandit-1.7.4.tar.gz", hash = "sha256:2d63a8c573417bae338962d4b9b06fbc6080f74ecd955a092849e1e65c717bd2"},
 ]
 boto3 = [
-    {file = "boto3-1.24.26-py3-none-any.whl", hash = "sha256:b8e79df81b57c40b3ddf7bfe657bf239c0ae70f6c6fab9fa3784d4f30253d29c"},
-    {file = "boto3-1.24.26.tar.gz", hash = "sha256:46b0909379955d70ae995ecd26a03e4842104da81ecdc38b83b5701d70e87c2e"},
+    {file = "boto3-1.24.73-py3-none-any.whl", hash = "sha256:f7ca88a76c8e31c19fef3bad2dee3c2ee0e77a0bced151fa3922cf021d55755e"},
+    {file = "boto3-1.24.73.tar.gz", hash = "sha256:a8911d55f1497dc55d69d2029c3a5120887af4846ef6b9fe3ef0c777dc1b394e"},
 ]
 botocore = [
-    {file = "botocore-1.27.26-py3-none-any.whl", hash = "sha256:0436b1e3fae36ea53760380e87cd80f94c8cdd3085c84a8a431d1182cf5b99e8"},
-    {file = "botocore-1.27.26.tar.gz", hash = "sha256:4a46d0508470883dc97ab8e9769617f21229f4ff8c146a47379f4042d917e520"},
+    {file = "botocore-1.27.73-py3-none-any.whl", hash = "sha256:0b94d1e7b1435f8ff108c74a09fe03ec88aadbfafe97e940ea415dc86ba305a3"},
+    {file = "botocore-1.27.73.tar.gz", hash = "sha256:e281e45e84d2728207d63499a37cea1dc1dde6093167ab238370ece67f6e7316"},
 ]
 certifi = [
     {file = "certifi-2022.9.24-py3-none-any.whl", hash = "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"},
