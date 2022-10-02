@@ -79,7 +79,6 @@ njs/node_modules/*
 
 # nodejs programs symlinks
 asciicast2gif
-create-directus-project
 fx
 gatsby
 neovim-node-host
@@ -92,6 +91,7 @@ ts-node
 tsc
 tsserver
 uglifyjs
+yarn
 
 # pip programs symlinks
 aws

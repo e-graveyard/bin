@@ -10,9 +10,9 @@ install:
 	@[ -L "../grip" ]       || ln -s $(PIP_BIN)/grip ../
 	@[ -L "../img2pdf" ]    || ln -s $(PIP_BIN)/img2pdf ../
 	@[ -L "../isort" ]      || ln -s $(PIP_BIN)/isort ../
-	@[ -L "../pip-review" ] || ln -s $(PIP_BIN)/pip-review ../
 	@[ -L "../pylint" ]     || ln -s $(PIP_BIN)/pylint ../
 	@[ -L "../wal" ]        || ln -s $(PIP_BIN)/wal ../
+	@[ -L "../tflocal" ]        || ln -s $(PIP_BIN)/tflocal ../
 
 clean:
 	@[ -L "../aws" ]        && unlink ../aws        || true
@@ -21,6 +21,6 @@ clean:
 	@[ -L "../grip" ]       && unlink ../grip       || true
 	@[ -L "../img2pdf" ]    && unlink ../img2pdf    || true
 	@[ -L "../isort" ]      && unlink ../isort      || true
-	@[ -L "../pip-review" ] && unlink ../pip-review || true
 	@[ -L "../pylint" ]     && unlink ../pylint     || true
 	@[ -L "../wal" ]        && unlink ../wal        || true
+	@[ -L "../tflocal" ]        && unlink ../tflocal        || true

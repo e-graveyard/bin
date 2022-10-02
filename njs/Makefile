@@ -16,6 +16,7 @@ install:
 	@[ -L "../tsc" ]              || ln -s $(NJS_BIN)/tsc ../
 	@[ -L "../tsserver" ]         || ln -s $(NJS_BIN)/tsserver ../
 	@[ -L "../uglifyjs" ]         || ln -s $(NJS_BIN)/uglifyjs ../
+	@[ -L "../yarn" ]             || ln -s $(NJS_BIN)/yarn ../
 
 clean:
 	@[ -L "../asciicast2gif" ]    && unlink ../asciicast2gif           || true
@@ -30,3 +31,4 @@ clean:
 	@[ -L "../tsc" ]              && unlink ../tsc                     || true
 	@[ -L "../tsserver" ]         && unlink ../tsserver                || true
 	@[ -L "../uglifyjs" ]         && unlink ../uglifyjs                || true
+	@[ -L "../yarn" ]             && unlink ../yarn                    || true
