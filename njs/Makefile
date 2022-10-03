@@ -2,7 +2,7 @@
 
 NJS_BIN := ${CURDIR}/node_modules/.bin
 
-install:
+install: clean
 	@npm i
 	@[ -L "../asciicast2gif" ]    || ln -s $(NJS_BIN)/asciicast2gif ../
 	@[ -L "../fx" ]               || ln -s $(NJS_BIN)/fx ../
