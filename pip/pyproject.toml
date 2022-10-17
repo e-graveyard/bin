@@ -19,7 +19,7 @@ pynvim          = "0.4.3"
 pywal           = "3.3.0"
 qr              = "0.6.0"
 pylint          = "2.14.2"
-terraform-local = "0.4"
+terraform-local = "0.5"
 
 [tool.poetry.dev-dependencies]
 
