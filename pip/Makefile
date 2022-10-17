@@ -2,7 +2,7 @@
 
 PIP_BIN := ${CURDIR}/.venv/bin
 
-install:
+install: clean
 	@poetry install
 	@[ -L "../aws" ]     || ln -s $(PIP_BIN)/aws ../
 	@[ -L "../bandit" ]  || ln -s $(PIP_BIN)/bandit ../
