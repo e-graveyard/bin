@@ -80,27 +80,23 @@ njs/node_modules/*
 # nodejs programs symlinks
 asciicast2gif
 fx
-gatsby
 neovim-node-host
 nodemon
-pm2
 serve
-serverless
 svgo
 ts-node
 tsc
 tsserver
-uglifyjs
 yarn
 
 # pip programs symlinks
 aws
-bandit
-ciphey
-flake8
 grip
-img2pdf
-isort
-pip-review
-pylint
-wal
+invoke
+
+# binaries
+infracost
+stcred
+terraform
+terraform-docs
+terragrunt
