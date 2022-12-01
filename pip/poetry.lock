@@ -1,13 +1,13 @@
 [[package]]
 name = "awscli"
-version = "1.27.1"
+version = "1.27.20"
 description = "Universal Command Line Environment for AWS."
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = "1.29.1"
+botocore = "1.29.20"
 colorama = ">=0.2.5,<0.4.5"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<5.5"
@@ -16,7 +16,7 @@ s3transfer = ">=0.6.0,<0.7.0"
 
 [[package]]
 name = "botocore"
-version = "1.29.1"
+version = "1.29.20"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -28,7 +28,7 @@ python-dateutil = ">=2.1,<3.0.0"
 urllib3 = ">=1.25.4,<1.27"
 
 [package.extras]
-crt = ["awscrt (==0.14.0)"]
+crt = ["awscrt (==0.15.3)"]
 
 [[package]]
 name = "certifi"
@@ -47,7 +47,7 @@ optional = false
 python-versions = ">=3.6.0"
 
 [package.extras]
-unicode_backport = ["unicodedata2"]
+unicode-backport = ["unicodedata2"]
 
 [[package]]
 name = "click"
@@ -285,7 +285,7 @@ urllib3 = ">=1.21.1,<1.27"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
-use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
+use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "rsa"
@@ -350,16 +350,16 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "b1cc5fd9bae33a86ef38038f551a1b70c38ec2b6edf6faca95fa31c8bccaba13"
+content-hash = "404cd2e34171e54492d13746b6a29c4512aa0062b9df13839b6b25049818f540"
 
 [metadata.files]
 awscli = [
-    {file = "awscli-1.27.1-py3-none-any.whl", hash = "sha256:8f562da4b9dccd7fbfe0325635619f9d9f55ed0c07aa0b537d62d020b9b7726b"},
-    {file = "awscli-1.27.1.tar.gz", hash = "sha256:f6f02bf549d14378095ae20c44e42047d7e9db2c9f88a1e623ad15cb7f2ac4a6"},
+    {file = "awscli-1.27.20-py3-none-any.whl", hash = "sha256:cc2fdb6e3d207534c6d85d27d2c5ec627a9037ab93914063e537f68647c32a0d"},
+    {file = "awscli-1.27.20.tar.gz", hash = "sha256:921a5a99f2febbd32c83288f05c23e513ef1cd135cabb8c7357b8beaddaa9153"},
 ]
 botocore = [
-    {file = "botocore-1.29.1-py3-none-any.whl", hash = "sha256:75c65130ffab527d0a3d948c6d87eb8eac210e079e1ff2768c66484be57bb77c"},
-    {file = "botocore-1.29.1.tar.gz", hash = "sha256:e38b7cdce927cefabe45608dde61660b76458fba6624240dcdb6c4b8453d17f7"},
+    {file = "botocore-1.29.20-py3-none-any.whl", hash = "sha256:7c26cb870d0cae26349df2926a7bf6277c1326db6d42c650807a519d50a83786"},
+    {file = "botocore-1.29.20.tar.gz", hash = "sha256:806dab6358b0b44d7b283f133aadd26846f31fab12c97d348a1849b3b5a36c74"},
 ]
 certifi = [
     {file = "certifi-2022.9.24-py3-none-any.whl", hash = "sha256:90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382"},
@@ -573,18 +573,7 @@ path-and-address = [
     {file = "path-and-address-2.0.1.zip", hash = "sha256:e96363d982b3a2de8531f4cd5f086b51d0248b58527227d43cf5014d045371b7"},
 ]
 pyasn1 = [
-    {file = "pyasn1-0.4.8-py2.4.egg", hash = "sha256:fec3e9d8e36808a28efb59b489e4528c10ad0f480e57dcc32b4de5c9d8c9fdf3"},
-    {file = "pyasn1-0.4.8-py2.5.egg", hash = "sha256:0458773cfe65b153891ac249bcf1b5f8f320b7c2ce462151f8fa74de8934becf"},
-    {file = "pyasn1-0.4.8-py2.6.egg", hash = "sha256:5c9414dcfede6e441f7e8f81b43b34e834731003427e5b09e4e00e3172a10f00"},
-    {file = "pyasn1-0.4.8-py2.7.egg", hash = "sha256:6e7545f1a61025a4e58bb336952c5061697da694db1cae97b116e9c46abcf7c8"},
     {file = "pyasn1-0.4.8-py2.py3-none-any.whl", hash = "sha256:39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d"},
-    {file = "pyasn1-0.4.8-py3.1.egg", hash = "sha256:78fa6da68ed2727915c4767bb386ab32cdba863caa7dbe473eaae45f9959da86"},
-    {file = "pyasn1-0.4.8-py3.2.egg", hash = "sha256:08c3c53b75eaa48d71cf8c710312316392ed40899cb34710d092e96745a358b7"},
-    {file = "pyasn1-0.4.8-py3.3.egg", hash = "sha256:03840c999ba71680a131cfaee6fab142e1ed9bbd9c693e285cc6aca0d555e576"},
-    {file = "pyasn1-0.4.8-py3.4.egg", hash = "sha256:7ab8a544af125fb704feadb008c99a88805126fb525280b2270bb25cc1d78a12"},
-    {file = "pyasn1-0.4.8-py3.5.egg", hash = "sha256:e89bf84b5437b532b0803ba5c9a5e054d21fec423a89952a74f87fa2c9b7bce2"},
-    {file = "pyasn1-0.4.8-py3.6.egg", hash = "sha256:014c0e9976956a08139dc0712ae195324a75e142284d5f87f1a87ee1b068a359"},
-    {file = "pyasn1-0.4.8-py3.7.egg", hash = "sha256:99fcc3c8d804d1bc6d9a099921e39d827026409a58f2a720dcdb89374ea0c776"},
     {file = "pyasn1-0.4.8.tar.gz", hash = "sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba"},
 ]
 Pygments = [
