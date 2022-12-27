@@ -6,11 +6,9 @@ authors     = ["Caian Ertl <hi@caian.org>"]
 
 [tool.poetry.dependencies]
 python        = "^3.10"
-awscli        = "1.27.1"
 gitpython     = "3.1.29"
 grip          = "4.6.1"
 invoke        = "1.7.3"
-pipenv        = "2022.12.19"
 pynvim        = "0.4.3"
 python-gitlab = "3.12.0"
 
